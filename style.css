@@ -1,1 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu {
+  padding: 10px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  background-color: #222;
+  padding: 12px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+/* Temas por página */
+body.home .header { background-color: #0077b6; color: white; }
+body.home .footer { background-color: #0077b6; }
+
+body.seca .header { background-color: #cc7722; color: white; }
+body.seca .footer { background-color: #cc7722; }
+
+body.inundacoes .header { background-color: #005f99; color: white; }
+body.inundacoes .footer { background-color: #005f99; }
+
+body.incendios .header { background-color: #b22222; color: white; }
+body.incendios .footer { background-color: #b22222; }
 
